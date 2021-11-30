@@ -1,5 +1,5 @@
 /* Database schema to keep the structure of entire database. */
-
+-- Day 1
 CREATE DATABASE vet_clinic;
 
 CREATE TABLE animals (
@@ -10,3 +10,11 @@ CREATE TABLE animals (
     neutered BOOLEAN DEFAULT false,
     weight_kg DECIMAL
 );
+
+
+
+-- Day 2
+
+/*Add 'species' column to the animals table */
+ALTER TABLE animals
+ADD species VARCHAR(50);
