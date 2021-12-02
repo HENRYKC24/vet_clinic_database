@@ -2,6 +2,8 @@
 -- Day 1
 CREATE DATABASE vet_clinic;
 
+CREATE DATABASE vet_clinic;
+
 CREATE TABLE animals (
     id INTEGER GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
     name VARCHAR(50),
